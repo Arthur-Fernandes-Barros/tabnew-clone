@@ -4,7 +4,8 @@
   "description": "Projeto pra treinar programação",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "next dev",
+    "devlocal" : "next dev -H 0.0.0.0 -p 3000"
   },
   "author": "",
   "license": "MIT",
